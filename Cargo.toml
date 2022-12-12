@@ -9,16 +9,9 @@ edition = "2021"
 serde = "1.0.149"
 rocket = { version = "0.5.0-rc.2", features = ["json"] }
 dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
 
 [dependencies.mongodb]
 version = "2.3.1"
 default-features = false
 features = ["sync"]
-
-[dependencies.uuid]
-version = "1.2.2"
-features = [
-"v4",                # Lets you generate random UUIDs
-"fast-rng",          # Use a faster (but still sufficiently random) RNG
-"macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
-]
