@@ -1,2 +1,2 @@
-//DB logic here
+//Database
 pub mod db;

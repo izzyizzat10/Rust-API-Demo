@@ -1,2 +1,2 @@
-// API handlers go here
+// API controllers
 pub mod holder_service;

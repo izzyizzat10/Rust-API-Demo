@@ -1,4 +1,4 @@
-// db service
+// DB Repository
 use std::env;
 use dotenv::dotenv;
 use mongodb::{  bson::{extjson::de::Error, oid::ObjectId, doc},

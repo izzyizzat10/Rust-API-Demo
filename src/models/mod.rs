@@ -1,2 +1,2 @@
-// db data logic
+// DB models
 pub mod holder_model;

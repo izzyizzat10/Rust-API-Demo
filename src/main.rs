@@ -20,7 +20,7 @@ fn rocket() -> _ {
 
 #[get("/")]
 fn index() -> Result<Json<String>, Status> {
-    Ok(Json(String::from("Hello from rust and mongodb")))
+    Ok(Json(String::from("Rust API with Rocket and mongoDB")))
 }
 
 
